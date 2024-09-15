@@ -33,6 +33,7 @@ def scrape_to_word(url, output_file):
 
     doc.save(output_file)
 
+
 url = 'https://www.nerdybirdy.org/'
 output_file = 'scraped_content_with_meta_table.docx'
 scrape_to_word(url, output_file)
